@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page 2</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            height: 98vh;
+            background-color: purple;
+            float: left;
+        }
+        .header{
+            width: 100%;
+            height: 6vh;
+            background-color:rgb(208, 97, 242);
+            float: left;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .logo{
+            width: 3.5vh;
+            height: 3.5vh;
+            background-color:rgb(126, 35, 212);
+            border-radius: 50%;
+            margin-left: 70px;
+            margin-top: 1.5vh;
+            float: left;
+            text-align: center;
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-left: 8.5px;
+            -webkit-text-fill-color: white;
+        }
+        .menu{
+            width: 30%;
+            height: 5vh;
+            float: right;
+            margin-top: 1.3vh;
+            font-size: 18px;
+        }
+        .content{
+            width: 100%;
+            height: 44vh;
+            float: left;
+            background-color: white;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .text{
+            width: 100%;
+            height: 10vh;
+            float: left;
+            text-align: center;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-weight: bold;
+            word-spacing: 5px;
+        }
+        .img{
+            width: 100%;
+            height: 34vh;
+            float: left;
+        }
+        #img1{
+            width: 13%;
+            height: 34vh;
+            border-radius: 48%;
+            margin-left: 43.5%;
+            margin-top: -5px;
+            position: absolute;
+            z-index: 5;
+        }
+        #img2{
+            width: 7.5%;
+            height: 17vh;
+            float: left;
+            margin-left: 800px;
+            margin-top: 10px;
+            position: absolute;
+            z-index: 2;
+        }
+        #b1{
+            width: 160px;
+            height: 7vh;
+            background-color:blueviolet;
+            border-radius: 50px 50px 50px 50px;
+            margin-top: 10px;
+            margin-left: 520px;
+            position: absolute;
+            border: 1px solid white;
+            -webkit-text-fill-color: white;
+        }
+        #b2{
+            width: 160px;
+            height: 7vh;
+            background-color:blueviolet;
+            border-radius: 50px 50px 50px 50px;
+            border: 1px solid white;
+            margin-top: 23vh;
+            margin-left: 860px;
+            -webkit-text-fill-color: white;
+        }
+        .symbol{
+            width: 100%;
+            height: 8vh;
+            background-color: rgb(55, 58, 64);
+            float: left;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        #img3{
+            width: 10%;
+            margin-left: 7.5%;
+            height: 5vh;
+            margin-top: 1vh;
+            -webkit-text-fill-color: gray;
+        }
+        #img4{
+            width: 10%;
+            margin-left: 7.5%;
+            height: 5vh;
+            margin-top: 1vh;
+            -webkit-text-fill-color: gray;
+        }
+        .About{
+            width: 100%;
+            height: 40vh;
+            float: left;
+            background-color:rgb(208, 97, 242);
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        #a1{
+            width: 35%;
+            height: 30vh;
+            float: left;
+            font-size: 65px;
+            font-weight: bold;
+            font-family: sans-serif;
+            -webkit-text-fill-color: white;
+            display: grid;
+            place-items: center;
+        }
+        #lorem{
+            width: 65%;
+            height: 30vh;
+            float: left;
+            font-size: 25px;
+            font-family: sans-serif;
+            -webkit-text-fill-color: white;
+            word-spacing: 10px;
+            padding-top: 30px;
+        }
+        #l1{
+            width: 33.3%;
+            height: 10vh;
+            float: left;
+            background-color: aqua;
+        }
+        #l2{
+            width: 33.3%;
+            height: 10vh;
+            float: left;
+            background-color:rebeccapurple;
+        }
+        #l3{
+            width: 33.3%;
+            height: 10vh;
+            float: left;
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">A<span style="margin-left: 15px;">Alea</span></div>
+            <div class="menu">
+                <a href="" style="margin-right: 15px;margin-top: 15px; text-decoration: none;-webkit-text-fill-color: white;">home </a>
+                <a href="" style="margin-right: 15px;margin-top: 15px;text-decoration: none;-webkit-text-fill-color: white;">About</a>
+                <a href="" style="margin-right: 15px;margin-top: 15px;text-decoration: none;-webkit-text-fill-color: white;">Services</a>
+                <button style="width: 95px;height: 3.5vh;background-color:blueviolet;border-radius: 50px 50px 50px 50px;margin-left: 5px;">Let's Talk</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">I'm <span class="test" style="-webkit-text-fill-color: blueviolet;">Alea</span>. I will create a web design that <br>can give value to your company</div>
+            <div class="img">
+                <img id="img1" src="./pg2.png">
+                <img id="img2" src="./pattern.png">
+                <button id="b1">UI/UX Des3ignar<br>4 Years</button>
+                <button id="b2">Web Developer<br>2 Years</button>
+            </div>
+        </div>
+        <div class="symbol">
+            <div>
+                <a href="https://www.fontspace.com/category/cursive"><img id="img3" src="https://see.fontimg.com/api/renderfont4/eZRMB/eyJyIjoiZnMiLCJoIjoxMDYsInciOjEyNTAsImZzIjo4NSwiZmdjIjoiI0I0QjRCNCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/ZHJpYmJibGUg/widie-gusti.png" alt="Cursive fonts"></a>
+                <span id="img3" style="font-size: 45px;margin-left: 15%;">Linked</span><span style="background-color: gray;-webkit-text-fill-color:  rgb(55, 58, 64); font-size: 35px;margin-right: -15%">in</span>
+                <span id="img3" style="font-size: 45px;margin-left: 30%;">Medium</span>
+                <span id="img3" style="font-size: 45px;margin-left: 15%;">Behance</span>
+            </div>
+    
+        </div>
+        <div class="About">
+            <div id="a1">About<br>Me.</div>
+            <div id="lorem"><p>Lorem ipsum dolor sit amet. consectetur adiiscing<br>elit. Etiam eu turis molestie, distum est a, mattis<br>tellus. sed dignissim, metus nec tringilla<br>accumsan, risus sum sollicitudin iacus, ut interdum<br>telllus elit sed risus.</p></div>
+            <div id="l1"><div style="width: 60px;height: 60px;background-color:blueviolet;border-radius: 30%;-webkit-text-fill-color: white;">4k<span style="font-size: 20px;margin-left: 20px;">Projects<br>Done</span></div></div>
+            <div id="l2"></div>
+            <div id="l3"></div>
+        </div>
+    </div>    
+</body>
+</html>
